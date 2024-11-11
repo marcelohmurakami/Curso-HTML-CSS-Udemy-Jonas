@@ -1,0 +1,82 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h1, h2, h3 {
+    color:white;
+}
+
+h1 {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+li{
+    font-size: 24px;
+}
+
+footer p{
+    font-size: 16px;
+}
+
+.main-header{
+    background-color: blue;
+    border: 5px solid black;
+}
+
+.body-header{
+    background-color: purple;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 1px solid black;
+}
+
+aside{
+    background-color: yellow;
+    border: 5px solid blue;
+}
+
+a:link{
+    color: aliceblue;
+}
+
+a:visited{
+    color: aqua;
+}
+
+nav a:hover{
+    color: aliceblue;
+    background-color: red;
+    text-decoration: dashed;
+    font-weight: bolder;
+}
+
+a:active{
+    color: aliceblue;
+    background-color: yellow;
+    text-decoration: dashed;
+    font-weight: bolder;
+}
