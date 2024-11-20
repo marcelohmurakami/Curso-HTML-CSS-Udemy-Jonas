@@ -93,6 +93,18 @@ ol:first-child {
     margin-top: 20px;
 }
 
+.imagem-principal{
+    position: relative;
+    display: inline;
+}
+
+button{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 5px;
+}
+
 aside{
     background-color: yellow;
     border: 5px solid blue;
@@ -113,6 +125,12 @@ nav a:hover{
     background-color: red;
     text-decoration: dashed;
     font-weight: bolder;
+    display: inline;
+    padding: 10px;
+}
+
+.item-menu{
+    display: block;
 }
 
 a:active{
@@ -120,4 +138,8 @@ a:active{
     background-color: yellow;
     text-decoration: dashed;
     font-weight: bolder;
+}
+
+.item-de-lista{
+    display: inline;
 }
