@@ -1,19 +1,63 @@
+*{
+    margin: 0px;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+header{
+    position: relative;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
-    border: 3px solid black;
+    margin-top: 100px;
+}
+
+.sale{
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    background-color: red;
+    border: 2px solid black;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bolder;
 }
 
 .chamada-principal{
     text-align: center;
     background-color: aqua;
     text-transform: uppercase;
+    padding: 15px;
+}
+
+.preco{
+    margin-top: 5px;
+    margin-bottom: -1px;
 }
 
 .paragrafo-especial{
     color: gray;
     font-weight: bolder;
     text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-bottom: 25px;
 }
 
 .info:link, .info:visited{
@@ -25,11 +69,57 @@ body{
     text-decoration: none;
 }
 
+.cores-sapato{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.cor-sapato{
+    display: inline-block;
+    margin-right: 15px;
+    background-color: blue;
+}
+
+.cor-sapato2{
+    display: inline-block;
+    margin-right: 15px;
+    background-color: black;
+}
+
+.cor-sapato3{
+    display: inline-block;
+    margin-right: 15px;
+    background-color: yellow;
+}
+
+.cor-sapato4{
+    display: inline-block;
+    margin-right: 15px;
+    background-color: red;
+}
+
+.cor-sapato5{
+    display: inline-block;
+    margin-right: 15px;
+    background-color: green;
+}
+
+.cor-sapato6{
+    display: inline-block;
+    background-color: rgb(66, 29, 29);
+}
+
+.detalhes {
+    margin-bottom: 10px;
+}
+
 .botao{
     background-color: black;
     color: white;
     border: none;
     cursor: pointer;
+    width: 100%;
+    padding: 20px 0;
 }
 
 .botao:hover, .botao:active{
@@ -37,4 +127,5 @@ body{
     color: black;
     border: none;
     cursor: pointer;
+    border: 3px solid black;
 }

@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Times New Roman', Times, serif;
     color: black;
@@ -5,6 +10,8 @@ body{
 
 h1, h2, h3 {
     color:white;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 h1 {
@@ -12,6 +19,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 h2{
@@ -26,11 +34,37 @@ h4{
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 p{
     font-size: 22px;
     line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-header{
+    background-color: blue;
+    border: 5px solid black;
+    padding: 50px 10px;
+    height: 100px;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.main-imagem {
+    margin-bottom: 20px;
+    width: 50%; 
+    height: auto;
 }
 
 li{
@@ -41,26 +75,33 @@ footer p{
     font-size: 16px;
 }
 
-.main-header{
-    background-color: blue;
-    border: 5px solid black;
-}
-
 .body-header{
     background-color: purple;
     border-bottom: 5px solid black;
     border-left: 5px solid black;
     border-right: 5px solid black;
-    border-top: 1px solid black;
+    border-top: 5px solid black;
+    margin-top: 20px;
+}
+
+.item-da-lista {
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+ol:first-child {
+    margin-top: 20px;
 }
 
 aside{
     background-color: yellow;
     border: 5px solid blue;
+    margin-top: 20px;
+    width: 500px;
 }
 
 a:link{
-    color: aliceblue;
+    color: black;
 }
 
 a:visited{
