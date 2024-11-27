@@ -7,7 +7,11 @@ h4 {
 }
 
 p{
-    margin-bottom: 10px;
+
+}
+
+.paragrafo{
+    margin-bottom: 15px;
 }
 
 .container {
@@ -36,6 +40,14 @@ body{
     font-weight: bolder;
 }
 
+.body-container{
+
+}
+
+article{
+    height: 250px;
+}
+
 .chamada-principal{
     text-align: center;
     background-color: aqua;
@@ -46,6 +58,23 @@ body{
 .preco{
     margin-top: 5px;
     margin-bottom: -1px;
+    font-size: 40px;
+}
+
+.container-preco{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container1{
+    margin-top: 20px;
+}
+
+.container2{
+
 }
 
 .paragrafo-especial{
@@ -53,7 +82,6 @@ body{
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 14px;
-    margin-bottom: 30px;
 }
 
 .info {
@@ -70,12 +98,14 @@ body{
 }
 
 .cores-sapato{
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 30px;
 }
 
 .cor-sapato{
-    display: inline-block;
+    height: 25px;
+    width: 25px;
     margin-right: 15px;
     background-color: blue;
 }
@@ -110,7 +140,7 @@ body{
 }
 
 .detalhes {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .botao{
@@ -128,4 +158,24 @@ body{
     border: none;
     cursor: pointer;
     border: 3px solid black;
+}
+
+/*CSS GRID*/
+
+.container{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    column-gap: 30px;
+}
+
+.titulo{
+    grid-column: 1 / -1;
+}
+
+.container2{
+    align-content: center;
+}
+
+.botao{
+    grid-column: 1 / -1;
 }

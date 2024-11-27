@@ -9,7 +9,7 @@ body{
     border-top: 10px solid blue;
 }
 
-h1, h2, h3 {
+h1, h3 {
     color:black;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -40,6 +40,7 @@ h4{
 p{
     font-size: 22px;
     line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 .container{
@@ -76,11 +77,8 @@ p{
     align-items: center;
 }
 
-.body-container{
-    display: flex;
-    gap: 100px;
-    justify-content: space-between;
-    align-items: flex-start;
+article{
+    margin-left: 50px;
 }
 
 .main-imagem {
@@ -98,7 +96,6 @@ footer p{
 }
 
 .body-header{
-    padding: 10px 50px;
 }
 
 .item-da-lista {
@@ -126,10 +123,7 @@ aside{
     background-color: aqua;
     border-top: blue solid 10px;
     border-bottom: blue solid 10px;
-    margin-top: 100px;
-    width: 500px;
     margin-right: 50px;
-    flex: 25% 0 1;
     padding: 50px 20px;
 }
 
@@ -173,4 +167,24 @@ a:active{
 
 .item-de-lista{
     display: inline;
+}
+
+/*CSS GRID*/
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    row-gap: 50px;
+    column-gap: 60px;
+    align-items: start;
+}
+
+.main-header{
+    grid-column: 1 / -1;
+}
+
+footer{
+    background-color: bisque;
+    grid-column: 1 / -1;
+    grid-row: 3;
 }

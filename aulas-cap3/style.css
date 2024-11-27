@@ -265,3 +265,7 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+.container--2 {
+  display: none;
+}
